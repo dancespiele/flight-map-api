@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es2018",
+		"module": "commonjs",
+		"sourceMap": true,
+		"strict": true,
+		"rootDir": ".",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"outDir": "./lib",
+        "declaration": true
+    },
+
+	"include": [
+		"api/index.ts", "api/modules/handlers.ts"
+	]
+}
