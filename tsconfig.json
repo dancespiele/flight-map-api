@@ -12,6 +12,6 @@
     },
 
 	"include": [
-		"api/index.ts", "api/modules/handlers.ts"
+		"api/index.ts", "api/modules/handlers.ts", "api/endpoints/flightnear/routes.ts"
 	]
 }
