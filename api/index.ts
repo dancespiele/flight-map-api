@@ -1,3 +1,5 @@
+import * as dotenv from "dotenv";
+dotenv.config();
 import * as bodyparser from "body-parser";
 import * as cors from "cors";
 import {CorsOptions} from "cors";
