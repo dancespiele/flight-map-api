@@ -5,8 +5,8 @@
   "author": "Francisco Jesus",
   "license": "MIT",
   "scripts": {
-    "test": "lab -v --sourcemaps --transform node_modules/lab-transform-typescript test/api.test.ts",
-    "start": "ts-node api/index.ts"
+    "test": "node_modules/.bin/lab -v --sourcemaps --transform node_modules/lab-transform-typescript test/api.test.ts",
+    "start": "node_modules/.bin/ts-node api/index.ts"
   },
   "dependencies": {
     "@types/body-parser": "^1.17.0",
